@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://i.ibb.co/6bLZpBd/app1.png",
+    "title": "Chatly",
+    "companyName": "TechVerse Ltd.",
+    "id": 1,
+    "description": "Chatly is a next-generation real-time messaging platform designed to make communication seamless, secure, and smart. Whether you're chatting with family, coordinating projects with colleagues, or connecting with communities, Chatly offers an intuitive interface and powerful features to support you. With end-to-end encryption, message scheduling, media sharing, and AI-powered smart replies, it’s built to support both casual and professional use. It syncs across all your devices so you never miss a message, and its lightweight design ensures fast performance even on slower networks.",
+    "size": 52,
+    "reviews": 12450,
+    "ratingAvg": 4.5,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 950 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 9550 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/zVKnSgV/app2.png",
+    "title": "FitTrack",
+    "companyName": "WellnessPro",
+    "id": 2,
+    "description": "FitTrack is your personal health and fitness companion, designed to offer holistic insights into your body and habits. It monitors workouts, heart rate, sleep, steps, and nutrition, integrating data from wearables and built-in sensors to give you a full picture of your wellness. AI-driven algorithms analyze your progress and suggest personalized routines, meal plans, and rest days tailored to your goals. With interactive graphs, milestone badges, and community challenges, FitTrack keeps you motivated and engaged. Whether you're a fitness beginner or a seasoned athlete, it adapts to your growth and helps you build sustainable habits.",
+    "size": 89,
+    "reviews": 8700,
+    "ratingAvg": 4.2,
+    "downloads": 890000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 4300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/JH5rQYb/app3.png",
+    "title": "NoteNest",
+    "companyName": "PixelSoft",
+    "id": 3,
+    "description": "NoteNest reimagines note-taking for modern creators, students, and professionals who want more than just a text editor. You can combine typed notes, sketches, voice memos, attachments, and checklists into flexible pages that adapt to your workflow. With tag-based organization, nested notebooks, and search, you never lose track of an idea. Offline mode ensures access even when you're disconnected, and cloud sync keeps everything updated across your devices. Whether capturing lecture ideas, brainstorming a project, or journaling your thoughts, NoteNest provides a clean, distraction-free space that scales with your needs.",
+    "size": 34,
+    "reviews": 5600,
+    "ratingAvg": 4.7,
+    "downloads": 650000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 3750 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/hm2xBf5/app4.png",
+    "title": "Taskify",
+    "companyName": "CodeVision",
+    "id": 4,
+    "description": "Taskify aims to bring clarity and focus to your daily tasks and long-term projects. It lets you create tasks, set deadlines, assign priorities, and group tasks under projects or tags. Smart reminders, recurring tasks, and predictive scheduling help you stay organized without micromanaging. You can collaborate with teammates, leave comments, attach files, and track progress in real time. Its visual dashboards give you an overview of what’s ahead, so you can balance urgent and important tasks. With cross-platform syncing and offline support, Taskify works wherever you go—even without internet access.",
+    "size": 61,
+    "reviews": 9100,
+    "ratingAvg": 4.3,
+    "downloads": 730000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 4600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/dD1HsmG/app5.png",
+    "title": "PhotoVerse",
+    "companyName": "NextGen Studios",
+    "id": 5,
+    "description": "PhotoVerse empowers both casual users and creative professionals to bring their vision to life through intuitive yet powerful tools. You can edit exposure, color balance, curves, and sharpness with precision controls, or let AI-driven filters automatically enhance your images. The background removal, object cloning, portrait retouching, and sky replacement tools allow you to transform scenes with ease. It supports RAW editing and advanced layers for complex work, while offering one-click presets for quick fixes. Share your creations directly to social platforms or export in high resolution. Whether you’re refining travel shots, product photos, or portraits, PhotoVerse gives you the control and magic you need.",
+    "size": 120,
+    "reviews": 15200,
+    "ratingAvg": 4.8,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 11150 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/Xx6CV2g/app6.png",
+    "title": "Learnly",
+    "companyName": "EduSpark",
+    "id": 6,
+    "description": "Learnly is an immersive learning platform built for lifelong learners. Whether you want to master coding, digital marketing, languages, or design, Learnly offers high-quality video courses, quizzes, hands-on projects, and progress tracking. Smart recommendations adjust to your strengths, weaknesses, and pace, creating a personalized learning path. Join live workshops, peer groups, and Q&A forums to deepen your learning experience. Offline mode, bookmarks, and note sync help you continue studying on the go. Learnly is ideal for students, professionals, or hobbyists looking to grow continuously.",
+    "size": 75,
+    "reviews": 6700,
+    "ratingAvg": 4.6,
+    "downloads": 920000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 3600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/x7XyzVn/app7.png",
+    "title": "TravelGo",
+    "companyName": "SkyTech",
+    "id": 7,
+    "description": "TravelGo is designed to be your ultimate travel companion, from planning to experiencing your trips. Search and compare flights, hotels, car rentals, and local experiences all in one place. Real-time itinerary updates, weather forecasts, and travel alerts keep you informed and prepared. Trip budgets, route optimization, and group planning make organizing travel effortless. The app also includes city guides, insider tips, and offline maps so you can navigate even without connectivity. Whether you're planning a weekend getaway or a multi-country adventure, TravelGo helps you make every moment count.",
+    "size": 98,
+    "reviews": 11000,
+    "ratingAvg": 4.4,
+    "downloads": 1300000,
+    "ratings": [
+      { "name": "1 star", "count": 450 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 5750 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/2Npn4Zp/app8.png",
+    "title": "MusicFlow",
+    "companyName": "SoundSpace",
+    "id": 8,
+    "description": "MusicFlow brings you a rich, intuitive music experience with high-quality streaming, smart recommendations, and seamless library management. Discover new artists, curate playlists, and explore mood-based radios tailored to your taste. The AI engine learns your listening habits and surfaces personalized suggestions daily. Offline mode supports your favorite tracks when offline, and support for lossless audio ensures premium sound quality. With social features, you can share playlists, follow friends, and see what’s trending—turning your listening into a shared experience.",
+    "size": 105,
+    "reviews": 18400,
+    "ratingAvg": 4.9,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 850 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 14300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/Hr7g0Zj/app9.png",
+    "title": "DailyNews",
+    "companyName": "MediaPulse",
+    "id": 9,
+    "description": "DailyNews offers timely reporting from around the world with a curated, personalized experience. It aggregates top stories across politics, technology, entertainment, sports, and local news, then filters them based on your interests. In-depth feature articles, expert analysis, and multimedia content (videos, podcasts, infographics) complement breaking news. Offline reading, alert settings, and topic-based newsletters help you stay informed without being overwhelmed. With a clean layout, customizable feeds, and fact-check indicators, DailyNews is built for engaged readers who value both breadth and depth of coverage.",
+    "size": 55,
+    "reviews": 9800,
+    "ratingAvg": 4.4,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 4880 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/KzVQWcw/app10.png",
+    "title": "ShopEase",
+    "companyName": "RetailEdge",
+    "id": 10,
+    "description": "ShopEase is your one-stop marketplace for browsing and buying products from global and local sellers alike. It presents deals, flash sales, and curated collections based on your taste. The in-app chat with sellers, secure checkout, and order tracking make shopping seamless and trustworthy. You get price drop alerts, wishlist syncing across devices, and smart recommendations based on browsing history. ShopEase also offers loyalty programs, coupons, and integrated payment methods, so your shopping experience is optimized end to end.",
+    "size": 85,
+    "reviews": 13100,
+    "ratingAvg": 4.6,
+    "downloads": 1400000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 8600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/wYhV0f1/app11.png",
+    "title": "BudgetWise",
+    "companyName": "FinFlow Inc.",
+    "id": 11,
+    "description": "BudgetWise is a smart personal finance app that helps you understand, plan, and optimize your money. You can link bank accounts, credit cards, and investments to get a holistic view of your finances. The app categorizes your spending, alerts you to overspending, and suggests how to save or invest more wisely. Use goal-based budgeting, track net worth, and simulate future scenarios like buying a car or home. Visualizations, tips, and tailored recommendations help you make better decisions. All data is encrypted, and local storage mode ensures you remain in control of your privacy.",
+    "size": 45,
+    "reviews": 7200,
+    "ratingAvg": 4.5,
+    "downloads": 680000,
+    "ratings": [
+      { "name": "1 star", "count": 280 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 3070 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/MgdYyfG/app12.png",
+    "title": "LanguageLab",
+    "companyName": "LinguaTech",
+    "id": 12,
+    "description": "LanguageLab is designed for learners who want to acquire new languages quickly and enjoyably. Through interactive lessons, spaced repetition flashcards, voice recognition, and gamified challenges, it reinforces reading, writing, listening and speaking skills. You can practice conversation simulations, get instant pronunciation feedback, and join global language exchange communities. Progress tracking, streaks, and leveling motivate consistency. Offline mode and local downloads ensure you can keep learning on the move. It’s ideal for travelers, students, or anyone seeking to build fluency in a new tongue.",
+    "size": 68,
+    "reviews": 5400,
+    "ratingAvg": 4.3,
+    "downloads": 510000,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 2580 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/4JCvx6V/app13.png",
+    "title": "MindSpace",
+    "companyName": "WellMind Labs",
+    "id": 13,
+    "description": "MindSpace focuses on mental wellness, providing guided meditations, breathing exercises, and journaling tools to support emotional health. The app curates daily mindfulness routines, tracks mood trends, and gives insights into triggers over time. You can listen to ambient soundscapes, do focus sessions, or follow sleep stories at night. MindSpace sends gentle reminders, offers gratitude prompts, and has a safe journal space for reflection. Everything is private, with optional lock codes or biometric access. Whether you're new to mindfulness or seeking deeper self-awareness, MindSpace offers a calming companion for the journey.",
+    "size": 50,
+    "reviews": 4500,
+    "ratingAvg": 4.4,
+    "downloads": 420000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 230 },
+      { "name": "3 star", "count": 670 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 2020 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/gMwrM7m/app14.png",
+    "title": "FitPlanner",
+    "companyName": "ActiveEdge",
+    "id": 14,
+    "description": "FitPlanner is a workout and training planner that helps you design personalized routines, track performance metrics, and analyze long-term progress. You can build split-day plans, rest cycles, and strength/cardio balance tailored to your goals. The app adjusts your plan as you progress, ensuring you don’t plateau or overtrain. Integrated exercise libraries with videos, form guidance, and community challenges keep you engaged. Sync with wearables or import workouts from other platforms. FitPlanner is built for enthusiasts who want structured, smart, and sustainable training systems.",
+    "size": 70,
+    "reviews": 6300,
+    "ratingAvg": 4.5,
+    "downloads": 550000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 290 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 2400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/7NB7G12/app15.png",
+    "title": "RecipeMaster",
+    "companyName": "Culinary Innovations",
+    "id": 15,
+    "description": "RecipeMaster is your ultimate kitchen assistant, providing thousands of recipes from global cuisines, complete with step-by-step instructions, videos, and ingredient lists. You can filter recipes by diet, time, ingredients on hand, or difficulty. Save favorites, build grocery lists, and scale recipes for different serving sizes. The app also suggests meal plans and weekly menus based on your dietary goals. With a built-in timer, voice instructions, and substitution suggestions, RecipeMaster supports you from prep to plating. Perfect for beginners and home chefs alike, it empowers you to cook confidently.",
+    "size": 95,
+    "reviews": 5000,
+    "ratingAvg": 4.6,
+    "downloads": 480000,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 750 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 2330 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/C0RrR7y/app16.png",
+    "title": "FileGuard",
+    "companyName": "SecureWare",
+    "id": 16,
+    "description": "FileGuard offers encrypted file storage, secure backups, and enterprise-grade privacy tools to protect your sensitive data. You can store documents, photos, and files in secure vaults, lock them with PIN or biometric access, and share them via expiring links. The app supports versioning, auto-backups, and integration with cloud providers like Dropbox or Google Drive, with encryption done locally. Audit logs and permission controls let you manage who views or edits files. Whether for personal security or business use, FileGuard makes encryption accessible, reliable, and user-friendly.",
+    "size": 65,
+    "reviews": 8200,
+    "ratingAvg": 4.7,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 5000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/w8BfYDv/app17.png",
+    "title": "QuizMaster",
+    "companyName": "BrainSpark",
+    "id": 17,
+    "description": "QuizMaster is a fun and engaging quiz platform for learners, trivia fans, and educators. You can choose from thousands of quizzes across categories like science, history, pop culture, tech, and more. Create your own quizzes, challenge friends, and host live trivia sessions. The app tracks your performance, shows progress charts, and offers spaced repetition learning. With a multiplayer mode and daily quiz challenges, QuizMaster keeps players coming back. It’s perfect for classroom use, self-improvement, or casual entertainment.",
+    "size": 40,
+    "reviews": 6100,
+    "ratingAvg": 4.4,
+    "downloads": 570000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 240 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 2400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/9tpYJjh/app18.png",
+    "title": "WeatherScope",
+    "companyName": "ClimaTech",
+    "id": 18,
+    "description": "WeatherScope delivers comprehensive weather forecasts, radar maps, alerts, and climate insights in a polished, intuitive interface. You get hourly, daily, and 15-day forecasts, along with wind, humidity, UV index, and sunset/sunrise times. Interactive radar overlays, precipitation tracking, and severe weather alerts help you stay safe and informed. The app also offers historical climate data, personalized alerts, and seasonal patterns for your selected locations. Whether you’re planning your day or a long trip, WeatherScope keeps you one step ahead of the elements.",
+    "size": 60,
+    "reviews": 7700,
+    "ratingAvg": 4.5,
+    "downloads": 840000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 4000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/0Kt0v7w/app19.png",
+    "title": "HealthPal",
+    "companyName": "VitalCore",
+    "id": 19,
+    "description": "HealthPal acts as your digital health assistant, centralizing fitness metrics, medical records, medication reminders, and wellness tips. Log daily vitals like blood pressure, glucose, sleep, or weight, and visualize trends over time to uncover insights. The app can interface with smart devices (blood pressure monitors, smart scales, glucose meters), and aggregate data into dashboards. You’ll receive nudges for hydration, walking breaks, and checkups based on your profile. Secure patient portals let you share reports with doctors or caregivers, making HealthPal a trusted tool for proactive health management.",
+    "size": 78,
+    "reviews": 6800,
+    "ratingAvg": 4.3,
+    "downloads": 620000,
+    "ratings": [
+      { "name": "1 star", "count": 240 },
+      { "name": "2 star", "count": 330 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1850 },
+      { "name": "5 star", "count": 2580 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/jfM3W7t/app20.png",
+    "title": "CookBookPro",
+    "companyName": "KitchenCraft",
+    "id": 20,
+    "description": "CookBookPro is the cooking companion you didn’t know you needed, offering thousands of recipes, guided tutorials, and social sharing. Browse dishes by cuisine, dietary preference, or ingredients you have on hand. Step-by-step video instructions, voice-guided cooking, timers, and substitution tips make even complex recipes accessible. You can create your own recipe book, bookmark favorites, and share with friends. Meal planning, grocery list generation, and pantry integration streamline your kitchen workflow. Whether you’re learning or cooking like a chef, CookBookPro brings creativity and ease into every meal.",
+    "size": 90,
+    "reviews": 5300,
+    "ratingAvg": 4.6,
+    "downloads": 460000,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 290 },
+      { "name": "3 star", "count": 750 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 2640 }
+    ]
+  }
+]

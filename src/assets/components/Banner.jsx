@@ -6,8 +6,9 @@ import pic from "../hero.png";
 
 const Banner = () => {
   return (
-    <>
-      <div className="hero bg-base-200  border-2 border-red-500">
+    <div className="bg-[#D9D9D9]">
+      {" "}
+      <div className="hero  ">
         <div className="hero-content text-center">
           <div className="max-w-200">
             <h1 className="text-5xl font-bold">
@@ -17,7 +18,7 @@ const Banner = () => {
               </span>{" "}
               Apps
             </h1>
-            <p className="py-4 border-2 border-red-500 text-gray-400">
+            <p className="py-4 my-3 text-gray-500">
               At HERO.IO, we craft innovative apps designed to make everyday
               life simpler, smarter, and more exciting. Our goal is to turn your
               ideas into digital experiences that truly make an impact.
@@ -40,7 +41,7 @@ const Banner = () => {
       <div className="flex justify-center ">
         <img src={pic} alt="" />
       </div>
-    </>
+    </div>
   );
 };
 

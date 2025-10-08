@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://i.ibb.co/6bLZpBd/app1.png",
+    "title": "Chatly",
+    "companyName": "TechVerse Ltd.",
+    "id": 1,
+    "description": "Chatly is a next-generation real-time messaging platform designed to keep you connected effortlessly. Whether you’re chatting with friends, managing a work group, or building a community, Chatly provides a seamless experience with instant delivery and smart notifications. It supports text, images, videos, and voice messages, all protected by advanced end-to-end encryption. The app also includes a built-in translation system and message scheduling for professionals who need better time management. With cross-device sync and a lightweight design, Chatly ensures you never miss an important conversation, no matter where you are.",
+    "size": 52,
+    "reviews": 12450,
+    "ratingAvg": 4.5,
+    "downloads": 1200,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 950 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 9550 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/zVKnSgV/app2.png",
+    "title": "FitTrack",
+    "companyName": "WellnessPro",
+    "id": 2,
+    "description": "FitTrack is your personal health companion that brings fitness and technology together. It tracks your workouts, heart rate, sleep cycles, and calorie intake with precision analytics powered by AI. The app learns from your daily activities to offer customized meal plans and exercise routines that adapt to your lifestyle. You can set goals, compete with friends, and monitor your progress visually with stunning graphs and insights. FitTrack seamlessly integrates with wearables like smartwatches and fitness bands, helping users maintain motivation and consistency throughout their wellness journey.",
+    "size": 89,
+    "reviews": 8700,
+    "ratingAvg": 4.2,
+    "downloads": 8900,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 4300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/JH5rQYb/app3.png",
+    "title": "NoteNest",
+    "companyName": "PixelSoft",
+    "id": 3,
+    "description": "NoteNest transforms the way you organize ideas and store information. It allows users to take quick notes, record voice memos, attach images, and even sketch directly within notes. Designed for both personal and professional use, it supports tag-based organization and automatic cloud backup to prevent data loss. With a distraction-free interface and real-time syncing across all devices, NoteNest ensures that your ideas are always within reach. Whether you’re a student collecting study materials or a professional brainstorming project ideas, NoteNest keeps everything organized beautifully and efficiently.",
+    "size": 34,
+    "reviews": 5600,
+    "ratingAvg": 4.7,
+    "downloads": 6500,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 3750 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/hm2xBf5/app4.png",
+    "title": "Taskify",
+    "companyName": "CodeVision",
+    "id": 4,
+    "description": "Taskify is a productivity powerhouse designed to help teams and individuals stay on top of their goals. With its clean design and intuitive tools, you can create projects, assign tasks, set due dates, and monitor progress in real-time. Taskify also supports smart automation that reminds you of upcoming deadlines and helps you prioritize based on urgency. Integrated collaboration tools let teams share updates, comments, and documents seamlessly. From freelancers managing clients to organizations planning large projects, Taskify delivers the structure and flexibility needed for consistent success.",
+    "size": 61,
+    "reviews": 9100,
+    "ratingAvg": 4.3,
+    "downloads": 7300,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 4600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/dD1HsmG/app5.png",
+    "title": "PhotoVerse",
+    "companyName": "NextGen Studios",
+    "id": 5,
+    "description": "PhotoVerse redefines mobile photo editing with AI-driven tools that make every image shine. Users can adjust lighting, remove unwanted objects, and apply cinematic filters effortlessly. The app features portrait retouching, sky replacement, and color enhancement for professional-grade results. Whether you’re editing selfies, landscapes, or product shots, PhotoVerse offers advanced control with simplicity. Its integrated sharing system allows you to post directly to social media in optimized resolutions, making it the ultimate choice for both photographers and casual users who want their photos to stand out.",
+    "size": 120,
+    "reviews": 15200,
+    "ratingAvg": 4.8,
+    "downloads": 2100,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 11150 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/Xx6CV2g/app6.png",
+    "title": "Learnly",
+    "companyName": "EduSpark",
+    "id": 6,
+    "description": "Learnly empowers learners of all ages with thousands of interactive courses across multiple subjects. Whether you want to learn web development, digital marketing, or graphic design, Learnly connects you with expert instructors through video lectures and quizzes. The app adapts to your learning style using AI recommendations and progress tracking. Learners can earn certificates, join study groups, and participate in live sessions for a more immersive experience. Its clean interface and offline access make education flexible and accessible from anywhere in the world.",
+    "size": 75,
+    "reviews": 6700,
+    "ratingAvg": 4.6,
+    "downloads": 9200,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 3600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/x7XyzVn/app7.png",
+    "title": "TravelGo",
+    "companyName": "SkyTech",
+    "id": 7,
+    "description": "TravelGo is your all-in-one travel planning assistant that makes exploring the world easier than ever. You can book flights, hotels, and local experiences within seconds, all at the best prices. The app provides real-time flight updates, weather forecasts, and local guides to help you plan your trip efficiently. It also features smart budget tracking and trip-sharing options, allowing users to coordinate group vacations effortlessly. Whether you’re on a weekend getaway or an international adventure, TravelGo ensures a smooth and memorable travel experience from start to finish.",
+    "size": 98,
+    "reviews": 11000,
+    "ratingAvg": 4.4,
+    "downloads": 1300,
+    "ratings": [
+      { "name": "1 star", "count": 450 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 5750 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/2Npn4Zp/app8.png",
+    "title": "MusicFlow",
+    "companyName": "SoundSpace",
+    "id": 8,
+    "description": "MusicFlow delivers a next-level audio experience for music lovers worldwide. With millions of songs from every genre, users can stream, download, and create custom playlists effortlessly. The app’s intelligent recommendation engine learns your taste and suggests new artists and tracks daily. Offline mode and lossless audio ensure the highest quality listening experience, even without an internet connection. From curated radio stations to personalized mixes, MusicFlow is designed to make every moment sound perfect, whether you’re working, studying, or relaxing.",
+    "size": 105,
+    "reviews": 18400,
+    "ratingAvg": 4.9,
+    "downloads": 3500,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 850 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 14300 }
+    ]
+  }
+]

@@ -7,6 +7,8 @@ import "./index.css";
 import Root from "./assets/components/Root";
 import Home from "./Home";
 import Apps from "./assets/components/Apps";
+import AppDeatails from "./assets/components/AppDeatails";
+import InstalledApps from "./assets/components/InstalledApps";
 
 const router = createBrowserRouter([
   {
@@ -14,7 +16,10 @@ const router = createBrowserRouter([
     Component: Root,
     children: [
       { index: true, Component: Home },
-      { path: "/Apps", Component: Apps },
+      { path: "/apps", Component: Apps },
+      { path: "/installation", Component: InstalledApps },
+
+      { path: "/appdetails", Component: AppDeatails },
     ],
   },
 ]);

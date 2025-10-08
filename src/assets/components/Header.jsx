@@ -5,13 +5,41 @@ import logo from "../logo.png";
 const Header = () => {
   const links = (
     <>
-      <NavLink to="/">
-        <li className="m-4 font-bold">Home</li>
+      <NavLink
+        to="/"
+        className={({ isActive }) =>
+          isActive
+            ? "m-4 font-bold text-red-500 border-b-2 border-red-500"
+            : "m-4 font-bold text-gray-700"
+        }
+      >
+        <li>Home</li>
       </NavLink>
-      <li className="m-4 font-bold">Apps</li>
-      <li className="m-4 font-bold">Installation</li>
+
+      <NavLink
+        to="/apps"
+        className={({ isActive }) =>
+          isActive
+            ? "m-4 font-bold text-red-500 border-b-2 border-red-500"
+            : "m-4 font-bold text-gray-700"
+        }
+      >
+        <li>Apps</li>
+      </NavLink>
+
+      <NavLink
+        to="/installation"
+        className={({ isActive }) =>
+          isActive
+            ? "m-4 font-bold text-red-500 border-b-2 border-red-500"
+            : "m-4 font-bold text-gray-700"
+        }
+      >
+        <li>Installation</li>
+      </NavLink>
     </>
   );
+
   return (
     <div className="navbar bg-base-100 shadow-sm ">
       <div className="navbar-start ml-10">
