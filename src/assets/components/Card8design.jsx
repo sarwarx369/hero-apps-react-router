@@ -6,7 +6,7 @@ import { NavLink } from "react-router";
 
 const Card8design = ({ app }) => {
   return (
-    <NavLink to={"/appdetails"}>
+    <NavLink to={`/appdetails/${app.id}`}>
       <div className="rounded h-51 w-48 my-2 bg-white flex flex-col justify-center items-center p-4">
         <div>
           <img

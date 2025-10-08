@@ -68,19 +68,24 @@ const Header = () => {
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">
-          {" "}
-          <img src={logo} alt="" className="w-10 h-10" />
-          <span className="text-[#632EE3] text-bold">HERO.IO</span>
-        </a>
+        <NavLink to={"/"}>
+          <p className="btn btn-ghost text-xl">
+            {" "}
+            <img src={logo} alt="" className="w-10 h-10" />
+            <span className="text-[#632EE3] text-bold">HERO.IO</span>
+          </p>
+        </NavLink>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end mr-10">
-        <a className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white">
+        <a
+          className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white"
+          href="https://github.com/sarwarx369"
+          target="blank"
+        >
           <div className=" bg-white w-6 h-6 rounded-full inline-flex items-center justify-center">
-            {" "}
             <Github className="text-[#632EE3] p-0.5"></Github>
           </div>
           Contribute

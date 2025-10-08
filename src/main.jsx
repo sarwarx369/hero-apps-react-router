@@ -19,7 +19,11 @@ const router = createBrowserRouter([
       { path: "/apps", Component: Apps },
       { path: "/installation", Component: InstalledApps },
 
-      { path: "/appdetails", Component: AppDeatails },
+      {
+        path: "/appdetails/:id",
+        loader: () => fetch("/appdata20.json").then((res) => res.json()),
+        Component: AppDeatails,
+      },
     ],
   },
 ]);
