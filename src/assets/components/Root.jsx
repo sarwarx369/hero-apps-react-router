@@ -1,12 +1,19 @@
 import React from "react";
 import Header from "./Header";
-import { Outlet } from "react-router";
+import { Outlet, useNavigation } from "react-router";
 import Footer from "./Footer";
 
 const Root = () => {
+  const navigation = useNavigation();
   return (
     <div>
       <Header></Header>
+      {navigation.state === "loading" && (
+        <div className="flex justify-center items-center py-10">
+          <span className="loading loading-spinner text-secondary text-4xl"></span>
+        </div>
+      )}
+
       <Outlet></Outlet>
       <Footer></Footer>
     </div>
