@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useLoaderData, useParams } from "react-router";
+import Barchart from "./Barchart";
 
 const AppDetails = () => {
   // ✅ Proper state naming
@@ -109,24 +110,8 @@ const AppDetails = () => {
       <hr />
 
       {/* ---------- Ratings Section ---------- */}
-      <div className="border-2 border-blue-300 rounded-lg p-4">
-        <h2 className="font-semibold mb-3">Ratings</h2>
-        {ratings &&
-          Object.entries(ratings)
-            .sort(([a], [b]) => b - a)
-            .map(([star, count]) => (
-              <div key={star} className="flex items-center gap-3 mb-2">
-                <p className="w-8">{star}★</p>
-                <div className="bg-gray-200 rounded-full w-full h-3 relative">
-                  <div
-                    className="bg-orange-500 h-3 rounded-full"
-                    style={{ width: `${(count / 12000) * 100}%` }}
-                  ></div>
-                </div>
-                <p className="text-sm text-gray-500">c</p>
-              </div>
-            ))}
-      </div>
+
+      <Barchart appId={appId}></Barchart>
 
       <hr />
 
