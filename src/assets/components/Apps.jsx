@@ -33,7 +33,7 @@ const Apps = () => {
       </div>
 
       <div className="flex justify-between items-center mb-4">
-        <p>({filteredApps.length}) Apps found</p>
+        <p className="text-lg font-bold ">({filteredApps.length}) Apps found</p>
         <label className="input relative">
           <svg
             className="h-[1em] absolute left-2 top-1/2 transform -translate-y-1/2 opacity-50"
@@ -63,13 +63,13 @@ const Apps = () => {
       </div>
 
       {filteredApps.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-1">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-1 place-items-center">
           {filteredApps.map((app) => (
             <Card20Design app={app} key={app.id}></Card20Design>
           ))}
         </div>
       ) : (
-        <p className="text-center text-gray-500 font-semibold mt-10">
+        <p className="text-center text-2xl text-pink-700 font-semibold mt-10">
           No App Found
         </p>
       )}

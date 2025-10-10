@@ -11,14 +11,14 @@ const Banner = () => {
       <div className="hero  ">
         <div className="hero-content text-center">
           <div className="max-w-200">
-            <h1 className="text-5xl font-bold">
+            <h1 className="text-2xl md:text-4xl font-bold">
               We Build <br />
               <span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
                 Productive
               </span>{" "}
               Apps
             </h1>
-            <p className="py-4 my-3 text-gray-500">
+            <p className="py-4 my-3 text-gray-500 text-sm md:text-md">
               At HERO.IO, we craft innovative apps designed to make everyday
               life simpler, smarter, and more exciting. Our goal is to turn your
               ideas into digital experiences that truly make an impact.
@@ -48,8 +48,8 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center ">
-        <img src={pic} alt="" />
+      <div className="flex justify-center mt-5">
+        <img src={pic} alt="" className="w-50 h-50 md:w-150 md:h-120" />
       </div>
     </div>
   );

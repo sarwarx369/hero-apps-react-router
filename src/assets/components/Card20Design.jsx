@@ -18,10 +18,10 @@ const Card20Design = ({ app }) => {
           {" "}
           <h2>{app.title}</h2>
           <div className="flex justify-between gap-4 ">
-            <p className="flex gap-1 items-center justify-center bg-[#F1F5E8] w-13 h-7 rounded text-green-500">
+            <p className="flex gap-1 items-center justify-center bg-[#F1F5E8] w-18 h-7 rounded text-green-500">
               <MdDownload /> {app.downloads}
             </p>
-            <p className="flex gap-1 items-center justify-center bg-[#F1F5E8] w-13 h-7 rounded text-green-500">
+            <p className="flex gap-1 items-center justify-center bg-[#F1F5E8] w-17 h-7 rounded text-green-500">
               <FaStar /> {app.ratingAvg}
             </p>
           </div>

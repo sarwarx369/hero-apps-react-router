@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://cdn-1.webcatalog.io/catalog/chatty/chatty-icon-filled-256.png?v=1745543295520",
+    "image": "https://i.ibb.co.com/7dL0Dpw3/chatly.png",
     "title": "Chatly",
     "companyName": "TechVerse Ltd.",
     "id": 1,
@@ -8,7 +8,7 @@
     "size": 52,
     "reviews": 12450,
     "ratingAvg": 4.5,
-    "downloads": 1200,
+    "downloads": 8200,
     "ratings": [
       { "name": "1 star", "count": 250 },
       { "name": "2 star", "count": 500 },
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "https://cdn.produkto.io/logo-templates/66d37def778d29ead29157b1/fit-track.webp",
+    "image": "https://i.ibb.co.com/P3NmRmd/fittrack.png",
     "title": "FitTrack",
     "companyName": "WellnessPro",
     "id": 2,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqw_wHfGZRrccsGEZL_Lkx-U9H4LLTm_a22A&s",
+    "image": "https://i.ibb.co.com/TD7P8P2w/notene.jpg",
     "title": "NoteNest",
     "companyName": "PixelSoft",
     "id": 3,

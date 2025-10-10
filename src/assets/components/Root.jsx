@@ -6,7 +6,7 @@ import Footer from "./Footer";
 const Root = () => {
   const navigation = useNavigation();
   return (
-    <div>
+    <div className="max-w-[1100px] mx-auto">
       <Header></Header>
       {navigation.state === "loading" && (
         <div className="flex justify-center items-center py-10">
