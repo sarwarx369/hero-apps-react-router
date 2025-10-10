@@ -1,11 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useLoaderData } from "react-router";
+import { getStoredApp } from "../../utility/AddtoDb";
 
 const InstalledApps = () => {
-  const apps = [];
+  const [installedapps, setinstalledapps] = useState([]);
+  const data = useLoaderData();
+  useEffect(() => {
+    const storedAppsdata = getStoredApp();
+    console.log(storedAppsdata);
+    const myinstalledapp = data.filter((app) =>
+      storedAppsdata.includes(app.id)
+    );
+    setinstalledapps(myinstalledapp);
+  }, [data]);
   return (
-    <div className="bg-gray-50 min-h-screen border border-dashed border-blue-300 p-6">
+    <div className="bg-gray-50 min-h-screen  p-6">
       {/* Header */}
-      <div className="border border-dashed border-blue-300 text-center p-6 mb-6">
+      <div className="text-center p-6 mb-6">
         <h1 className="text-3xl font-bold text-gray-900 mb-2">
           Your Installed Apps
         </h1>
@@ -13,30 +24,30 @@ const InstalledApps = () => {
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-
       {/* Content */}
-      <div className="border border-dashed border-blue-300 p-4">
+      <div className=" p-4">
         <div className="flex justify-between items-center mb-4">
           <p className="font-semibold text-gray-700">
-            {apps.length} Apps Found
+            {installedapps.length} Apps Found
           </p>
-          <button className="text-gray-600 text-sm border px-3 py-1 rounded-md hover:bg-gray-100">
+          <button className="text-gray-600 text-sm  px-3 py-1 rounded-md hover:bg-gray-100">
             Sort By Size ▼
           </button>
         </div>
-
         {/* App List */}
         <div className="space-y-4">
-          {apps.map((app) => (
+          {installedapps.map((app) => (
             <div
               key={app.id}
-              className="flex justify-between items-center bg-white border rounded-lg shadow-sm p-4"
+              className="flex justify-between items-center bg-white  rounded-lg shadow-sm p-4"
             >
               <div className="flex items-center gap-4">
-                <div className="w-14 h-14 bg-gray-200 rounded-md border"></div>
+                <div className="w-14 h-14 ">
+                  <img className="rounded-md" src={app.image} alt="" />
+                </div>
                 <div>
                   <h2 className="text-gray-800 font-semibold text-sm">
-                    {app.name}
+                    {app.title}
                   </h2>
                   <div className="flex items-center gap-3 text-gray-500 text-sm mt-1">
                     <span className="flex items-center gap-1">

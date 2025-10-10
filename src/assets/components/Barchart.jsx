@@ -27,7 +27,7 @@ const Barchart = ({ appId }) => {
   }, [appId]);
 
   return (
-    <div className="bg-gray-50 p-4 rounded-lg shadow-md">
+    <div className="bg-gray-25 p-4 rounded-lg ">
       <h2 className="text-lg font-semibold mb-4">Ratings</h2>
       <ResponsiveContainer width="100%" height={250}>
         <BarChart

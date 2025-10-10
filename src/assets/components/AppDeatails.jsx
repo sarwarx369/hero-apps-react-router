@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useLoaderData, useParams } from "react-router";
 import Barchart from "./Barchart";
 import { ToastContainer, toast } from "react-toastify";
+import { addToStoreDb } from "../../utility/AddtoDb";
 
 const AppDetails = () => {
   // ✅ Proper state naming
@@ -11,6 +12,10 @@ const AppDetails = () => {
   const handleClick = () => {
     setInstall(true);
     toast("installed succesfully");
+  };
+  const handleInstall = (appId) => {
+    addToStoreDb(appId);
+    handleClick();
   };
 
   // ✅ Loader data & params
@@ -96,7 +101,7 @@ const AppDetails = () => {
 
           {/* ---------- ✅ Install Button ---------- */}
           <button
-            onClick={handleClick}
+            onClick={() => handleInstall(appId)}
             disabled={install}
             className={`${
               install ? "bg-gray-400 cursor-not-allowed" : "bg-green-500 "
