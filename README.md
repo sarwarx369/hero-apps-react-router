@@ -1,16 +1,14 @@
-# Hero Apps React Router
-
 ## 📱 App Name
 
 **Hero Apps**
 
-## 📝 Description
+## Description
 
 Hero Apps is a modern web application built with **React Router** to showcase various web and mobile apps dynamically.  
 It includes a clean interface with navigation, app listings, detailed app information pages, and error handling for invalid routes.  
 This project is a great example for learning how to work with **React Router v6**, dynamic routing, data loading, and reusable components in a React environment.
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 - **React JS** – Component-based UI library
 - **React Router** – For routing and navigation
@@ -20,7 +18,7 @@ This project is a great example for learning how to work with **React Router v6*
 - **JSON** – For local data handling
 - **Vite** – Lightning-fast development build tool
 
-## 🚀 Features
+## Features
 
 - Dynamic app listing and details pages
 - Responsive design for all devices
@@ -28,15 +26,16 @@ This project is a great example for learning how to work with **React Router v6*
 - Search and filtering options
 - Reusable component structure
 
-## 🧠 How to Run Locally
+## How to Run Locally
 
-1. Clone the repository
-   ```bash
-   git clone https://github.com/your-username/hero-apps-react-router.git
-   2.Navigate to the project folder
-   ```
+    1. Clone the repository
 
-cd hero-apps-react-router
+```bash
+git clone https://github.com/sarwarx369/hero-apps-react-router.git
+
+2. Navigate to the project folder
+  cd hero-apps-react-router
+
 3.Install dependencies
 
 npm install
@@ -52,4 +51,5 @@ http://localhost:5173/
 💻 Author
 
 Golam Sarowar Zahan
-🧠 Beginner Web Developer learning with Programming Hero
+Beginner Web Developer learning with Programming Hero
+```

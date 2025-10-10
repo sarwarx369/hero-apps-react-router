@@ -5,23 +5,19 @@ import { ToastContainer, toast } from "react-toastify";
 import { addToStoreDb, getStoredApp } from "../../utility/AddtoDb";
 
 const AppDetails = () => {
-  // ✅ Proper state naming
   const [install, setInstall] = useState(false);
 
-  // ✅ Loader data & params
+  // data & id
   const allApps = useLoaderData();
   const { id } = useParams();
   const appId = parseInt(id);
 
   useEffect(() => {
-    // 🔹 Check if already installed
     const storedApps = getStoredApp();
     if (storedApps.includes(appId)) {
       setInstall(true);
     }
   }, [appId]);
-
-  // ✅ Button handler
 
   const handleInstall = (appId) => {
     addToStoreDb(appId);
@@ -29,15 +25,12 @@ const AppDetails = () => {
     toast("installed succesfully");
   };
 
-  // ✅ Find the single app
   const singleApp = allApps?.find((app) => app.id === appId);
 
-  // ✅ Loading check
   if (!singleApp) {
     throw new Response("App not found", { status: 404 });
   }
 
-  // ✅ Destructure safely
   const {
     title,
     image,
@@ -51,9 +44,7 @@ const AppDetails = () => {
 
   return (
     <div className="max-w-4xl mx-auto rounded-xl p-6 space-y-6">
-      {/* ---------- Header Section ---------- */}
       <div className="flex items-center gap-6 rounded-lg p-4">
-        {/* App Image */}
         <div className="flex-shrink-0">
           <img
             src={image}
@@ -62,7 +53,6 @@ const AppDetails = () => {
           />
         </div>
 
-        {/* App Info */}
         <div className="flex-1 space-y-2">
           <h1 className="text-xl font-bold">{title}</h1>
           <p>
@@ -71,7 +61,6 @@ const AppDetails = () => {
           </p>
           <hr />
 
-          {/* ---------- Stats Section ---------- */}
           <div className="flex gap-10 mt-3">
             <div className="text-center">
               <img
@@ -104,7 +93,7 @@ const AppDetails = () => {
             </div>
           </div>
 
-          {/* ---------- ✅ Install Button ---------- */}
+          {/* Install Button */}
           <button
             onClick={() => handleInstall(appId)}
             disabled={install}
@@ -119,13 +108,10 @@ const AppDetails = () => {
 
       <hr />
 
-      {/* ---------- Ratings Section ---------- */}
-
       <Barchart appId={appId} allApps={allApps}></Barchart>
 
       <hr />
 
-      {/* ---------- Description Section ---------- */}
       <div className="rounded-lg p-4">
         <h2 className="font-semibold mb-2">Description</h2>
         <p className="text-gray-700 leading-relaxed text-sm">{description}</p>

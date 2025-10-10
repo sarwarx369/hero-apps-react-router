@@ -17,7 +17,7 @@ const Barchart = ({ appId }) => {
       .then((data) => {
         const app = data.find((item) => item.id === appId);
         if (app) {
-          // sort descending (5 star first)
+          // sort
           const sorted = [...app.ratings].sort(
             (a, b) => parseInt(b.name) - parseInt(a.name)
           );

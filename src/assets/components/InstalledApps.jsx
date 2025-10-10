@@ -5,7 +5,7 @@ import { toast, ToastContainer } from "react-toastify";
 
 const InstalledApps = () => {
   const [installedApps, setInstalledApps] = useState([]);
-  const [sortOrder, setSortOrder] = useState(""); // for dropdown sorting
+  const [sortOrder, setSortOrder] = useState("");
   const data = useLoaderData();
 
   useEffect(() => {
@@ -16,20 +16,15 @@ const InstalledApps = () => {
     setInstalledApps(myInstalledApps);
   }, [data]);
 
-  // 🔹 Uninstall Function
   const handleUninstall = (id) => {
     const updatedApps = installedApps.filter((app) => app.id !== id);
     setInstalledApps(updatedApps);
 
-    // Update localStorage
     const storedAppsData = getStoredApp().filter((appId) => appId !== id);
     localStorage.setItem("installed", JSON.stringify(storedAppsData));
     toast("App uninstalled successfully!");
-
-    // Show toast
   };
 
-  // 🔹 Sort Function
   const handleSort = (order) => {
     setSortOrder(order);
     let sorted = [...installedApps];
@@ -43,10 +38,8 @@ const InstalledApps = () => {
 
   return (
     <div className="bg-gray-50 min-h-screen p-6">
-      {/* Toast container */}
       <ToastContainer />
 
-      {/* Header */}
       <div className="text-center p-6 mb-6">
         <h1 className="text-3xl font-bold text-gray-900 mb-2">
           Your Installed Apps
@@ -56,14 +49,12 @@ const InstalledApps = () => {
         </p>
       </div>
 
-      {/* Content */}
       <div className="p-4">
         <div className="flex justify-between items-center mb-4">
           <p className="font-semibold text-gray-700">
             {installedApps.length} Apps Found
           </p>
 
-          {/* 🔹 Sort Dropdown */}
           <select
             value={sortOrder}
             onChange={(e) => handleSort(e.target.value)}
@@ -75,7 +66,7 @@ const InstalledApps = () => {
           </select>
         </div>
 
-        {/* 🔹 App List */}
+        {/* App List */}
         <div className="space-y-4">
           {installedApps.map((app) => (
             <div
@@ -106,7 +97,6 @@ const InstalledApps = () => {
                 </div>
               </div>
 
-              {/* 🔹 Uninstall Button */}
               <button
                 onClick={() => handleUninstall(app.id)}
                 className="bg-green-500  text-white text-sm font-medium px-4 py-2 rounded"
