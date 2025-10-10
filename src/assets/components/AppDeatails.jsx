@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useLoaderData, useParams } from "react-router";
 import Barchart from "./Barchart";
+import { ToastContainer, toast } from "react-toastify";
 
 const AppDetails = () => {
   // ✅ Proper state naming
@@ -9,6 +10,7 @@ const AppDetails = () => {
   // ✅ Button handler
   const handleClick = () => {
     setInstall(true);
+    toast("installed succesfully");
   };
 
   // ✅ Loader data & params
@@ -36,8 +38,6 @@ const AppDetails = () => {
     companyName,
     ratingAvg,
   } = singleApp;
-
-  console.log("Install state:", install);
 
   return (
     <div className="max-w-4xl mx-auto rounded-xl p-6 space-y-6">
@@ -111,7 +111,7 @@ const AppDetails = () => {
 
       {/* ---------- Ratings Section ---------- */}
 
-      <Barchart appId={appId}></Barchart>
+      <Barchart appId={appId} allApps={allApps}></Barchart>
 
       <hr />
 
@@ -120,6 +120,7 @@ const AppDetails = () => {
         <h2 className="font-semibold mb-2">Description</h2>
         <p className="text-gray-700 leading-relaxed text-sm">{description}</p>
       </div>
+      <ToastContainer />
     </div>
   );
 };

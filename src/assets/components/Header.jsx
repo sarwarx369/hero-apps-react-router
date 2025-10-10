@@ -43,7 +43,7 @@ const Header = () => {
   return (
     <div className="navbar bg-base-100 shadow-sm ">
       <div className="navbar-start ml-10">
-        <div className="dropdown">
+        <div className="dropdown block md:hidden">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@ const Header = () => {
           </p>
         </NavLink>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-center hidden md:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end mr-10">
