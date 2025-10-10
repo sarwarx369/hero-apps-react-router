@@ -1,27 +1,33 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router";
 import Barchart from "./Barchart";
 import { ToastContainer, toast } from "react-toastify";
-import { addToStoreDb } from "../../utility/AddtoDb";
+import { addToStoreDb, getStoredApp } from "../../utility/AddtoDb";
 
 const AppDetails = () => {
   // ✅ Proper state naming
   const [install, setInstall] = useState(false);
 
-  // ✅ Button handler
-  const handleClick = () => {
-    setInstall(true);
-    toast("installed succesfully");
-  };
-  const handleInstall = (appId) => {
-    addToStoreDb(appId);
-    handleClick();
-  };
-
   // ✅ Loader data & params
   const allApps = useLoaderData();
   const { id } = useParams();
   const appId = parseInt(id);
+
+  useEffect(() => {
+    // 🔹 Check if already installed
+    const storedApps = getStoredApp();
+    if (storedApps.includes(appId)) {
+      setInstall(true);
+    }
+  }, [appId]);
+
+  // ✅ Button handler
+
+  const handleInstall = (appId) => {
+    addToStoreDb(appId);
+    setInstall(true);
+    toast("installed succesfully");
+  };
 
   // ✅ Find the single app
   const singleApp = allApps?.find((app) => app.id === appId);
@@ -39,7 +45,6 @@ const AppDetails = () => {
     downloads,
     size,
     reviews,
-    ratings,
     companyName,
     ratingAvg,
   } = singleApp;
